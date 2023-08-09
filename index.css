@@ -1,0 +1,42 @@
+.Kalkulator{
+    background-color: grey;
+    width: 400px;
+    height: 500px;
+    border-radius: 12px;
+    border: 2px solid;
+}
+
+
+.layar{
+    margin: 10px;
+    padding: 0px;
+    width: auto;
+    height: 30%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.tombol{
+    margin: 0px;
+    padding: 10px;
+    display: grid;
+    height: 60%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 10px;
+ 
+}
+
+.large{
+    grid-column: span 2;
+    font-size: 2em;
+    
+    
+}
+
+.small{
+    background-color: red;
+    height: auto;
+
+}
