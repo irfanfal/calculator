@@ -12,9 +12,10 @@
     padding: 0px;
     width: auto;
     height: 30%;
-    background-color: whitesmoke;
+    background-color: black;
     border-radius: 10px;
     border: 1px solid;
+    position: relative;
 }
 
 .tombol{
@@ -25,18 +26,35 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
     grid-gap: 10px;
- 
 }
+
+#layarAngka1{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    font-size: 30px;
+    color: white;
+
+}
+
 
 .large{
     grid-column: span 2;
     font-size: 2em;
-    
-    
+    background-color: orange;
 }
 
 .small{
-    background-color: red;
+    background-color: whitesmoke;
     height: auto;
+    font-size: 1.5em;
 
+}
+
+
+#layarAngka2{
+    position: absolute;
+    right: 10px;
+    color: white;
+    font-size: 30px;
 }
